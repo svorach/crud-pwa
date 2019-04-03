@@ -1,9 +1,7 @@
 # Progressive Web App (PWA) set with Typescript, Node, Firebase and React - to name a few
 
-
-Created by your best friend you never have heard of - Tom Morawski
-
-Findable here: https://www.linkedin.com/in/tomasz-morawski-15118760/
+Thanks best friend that I've now heard of - Tom Morawski
+Found here: https://www.linkedin.com/in/tomasz-morawski-15118760/
 
 ### Pieces:
 - Babel - https://babeljs.io/
