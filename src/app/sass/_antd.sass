@@ -1,0 +1,25 @@
+@import 'vars'
+
+.ant-btn-dashed:active,
+.ant-btn-dashed.active,
+.ant-btn-dashed:hover,
+.ant-btn-dashed:focus
+  color: $brand-secondary
+  border-color: $brand-secondary
+
+input.ant-input
+  font-family: $sans
+  height: 46px
+  border-color: $brand-secondary
+
+  &:focus
+    border-color: #ff4040
+    box-shadow: 0 0 0 2px rgba(255, 24, 24, 0.2)
+
+.ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled)
+  border-color: #ff4040
+
+form
+  .ant-btn
+    width: 100%
+    font-family: $sans
