@@ -1,6 +1,6 @@
 // Set this to true for production
 var doCache = true;
-var CACHE_NAME = 'rt-crm';
+var CACHE_NAME = 'crm-pwa';
 
 // Delete old caches that are not our current one!
 self.addEventListener('activate', event => {
