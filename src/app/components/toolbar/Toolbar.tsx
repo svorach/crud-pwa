@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Button } from 'antd';
 
 import './toolbar.sass';
+import { APP_NAME } from '../../constants';
 
 interface ToolbarProps {
   user_name: string;
@@ -21,7 +22,7 @@ export class Toolbar extends React.PureComponent<ToolbarProps> {
               id="logo"
               className="hidden"
             />
-            <h1>PWA CRM 🌋</h1>
+            <h1>{APP_NAME}</h1>
           </div>
           <div className="col control-col">
             <a
