@@ -1,9 +1,11 @@
 import * as React from 'react';
 
+import 'antd/dist/antd.css';
+
 import { Toolbar } from '../toolbar/Toolbar';
 import { Login } from '../login/Login';
+import { Filler } from '../filler/Filler';
 
-import 'antd/dist/antd.css';
 import '../../sass/app.sass';
 
 interface AppProps {}
@@ -48,6 +50,7 @@ export class App extends React.PureComponent<AppProps, AppState> {
         <Toolbar user_name={user_name} />
         <section className="main">
           <Login user_name={user_name} />
+          <Filler />
         </section>
       </>
     );

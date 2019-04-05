@@ -10,20 +10,27 @@ body
   height: 100%
 
 body
-  font-family: $sans
   background: $brand-secondary
+  color: #fff
+  font-family: $sans
+
+h1, h2, h3, h4, h5, h6
+  color: #fff
 
 .hidden
   display: none
-  visibility: hidden
   opacity: 0
+  visibility: hidden
+
+.main
+  padding: 20px
 
 // flex
+.row
+  display: flex
+
 .col
   flex: 1
 
 .control-col
   text-align: right
-
-.main
-  padding: 20px

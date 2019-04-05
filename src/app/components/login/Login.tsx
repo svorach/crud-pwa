@@ -37,6 +37,7 @@ export class Login extends React.PureComponent<LoginProps, LoginState> {
           <Input
             prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
             placeholder="Username"
+            defaultValue={user_name}
           />
         </Form.Item>
         <Form.Item>

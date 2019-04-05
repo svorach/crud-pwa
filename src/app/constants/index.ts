@@ -1,1 +1,1 @@
-export const APP_NAME = 'Triton CRM 🌋';
+export const APP_NAME = 'Triton CRM ☄️';
